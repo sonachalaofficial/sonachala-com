@@ -80,8 +80,51 @@ function Navbar() {
 
 
 
-            {/* Services Dropdown */}
+            {/* Interior Dropdown */}
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle text-white d-flex align-items-center gap-2"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                <i className="fas fa-paint-roller"></i>
+                Interior
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachalalifespaces.com/#/services/false-ceiling" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-building me-2"></i> False Ceiling
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachalalifespaces.com/#/services/modular-kitchen" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-utensils me-2"></i> Modular Kitchen
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachalalifespaces.com/#/services/glass-work" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-glass-martini me-2"></i> Glass Work
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachalalifespaces.com/#/services/acp-work" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-th-large me-2"></i> ACP Work
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachalalifespaces.com/#/services/upvc-windows" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-window-maximize me-2"></i> UPVC Windows
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachalalifespaces.com/#/services/aluminium-partition" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-columns me-2"></i> Aluminium Partition
+                  </a>
+                </li>
+              </ul>
+            </li>
 
+            {/* Services Dropdown */}
 
 
             <li className="nav-item dropdown">
