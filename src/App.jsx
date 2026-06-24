@@ -15,6 +15,7 @@ import Seller from "./pages/Seller";
 import Services from "./pages/Services";
 import Tools from "./pages/Tools";
 import Support from "./pages/Support";
+import ContactUs from "./pages/ContactUs";
 
 // Service Pages
 import HousingEdge from "./pages/services/HousingEdge";
@@ -68,7 +69,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/buyer" element={<Buyer />} />
             <Route path="/rent" element={<Rent />} />
             <Route path="/seller" element={<Seller />} />

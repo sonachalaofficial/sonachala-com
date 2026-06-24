@@ -260,6 +260,18 @@ function Navbar() {
               </ul>
             </li> */}
 
+            {/* Contact Us */}
+            <li className="nav-item">
+              <Link
+                className="nav-link text-white d-flex align-items-center gap-2"
+                to="/contact"
+                style={{ padding: "8px 14px", borderRadius: "8px" }}
+              >
+                <i className="fas fa-envelope"></i>
+                Contact Us
+              </Link>
+            </li>
+
             {/* Support */}
             <li className="nav-item">
               <Link
