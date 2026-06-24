@@ -51,10 +51,6 @@ function Navbar() {
             {/* Main Menu */}
             {[
               { name: "Home", link: "/", icon: "fa-home" },
-              { name: "Property", link: "/PropertyListings", icon: "fa-building" },
-              { name: "For Buyer", link: "/buyer", icon: "fa-user" },
-              { name: "For Rent", link: "/rent", icon: "fa-key" },
-              { name: "For Seller", link: "/seller", icon: "fa-user-tie" },
             ].map((item, i) => (
               <li className="nav-item" key={i}>
                 <Link
@@ -78,7 +74,34 @@ function Navbar() {
               </li>
             ))}
 
-
+            {/* Property Dropdown */}
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle text-white d-flex align-items-center gap-2"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                <i className="fas fa-building"></i>
+                Property
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link className="dropdown-item" to="/PropertyListings">
+                    <i className="fas fa-home me-2"></i> Buy Property
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/rent">
+                    <i className="fas fa-key me-2"></i> Rent Property
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/seller">
+                    <i className="fas fa-user-tie me-2"></i> Sell Property
+                  </Link>
+                </li>
+              </ul>
+            </li>
 
             {/* Interior Dropdown */}
             <li className="nav-item dropdown">
@@ -124,9 +147,56 @@ function Navbar() {
               </ul>
             </li>
 
+            {/* Property Management Dropdown */}
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle text-white d-flex align-items-center gap-2"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                <i className="fas fa-building me-2"></i>
+                Property Management
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachala.in/#/property-management" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-home me-2"></i> Property Management
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachala.in/#/tenant-management" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-users me-2"></i> Tenant Management
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachala.in/#/RealEstate" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-city me-2"></i> Real Estate
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachala.in/#/BuildingConstruction" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-hard-hat me-2"></i> Builders
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachala.in/#/plot-monitoring" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-map-marked-alt me-2"></i> Plot Monitoring
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachala.in/#/packers-movers" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-truck me-2"></i> Packers & Movers
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="https://www.sonachala.in/#/apartment-maintenance" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-tools me-2"></i> Apartment Maintenance
+                  </a>
+                </li>
+              </ul>
+            </li>
+
             {/* Services Dropdown */}
-
-
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-white d-flex align-items-center gap-2"
@@ -134,7 +204,7 @@ function Navbar() {
                 data-bs-toggle="dropdown"
               >
                 <i className="fas fa-concierge-bell"></i>
-                Services
+                Loan
               </a>
               <ul className="dropdown-menu">
                 <li>
