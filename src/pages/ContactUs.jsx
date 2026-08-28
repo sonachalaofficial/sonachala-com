@@ -36,7 +36,7 @@ const ContactUs = () => {
               <span>Email :</span>
 
               <a
-                href="mailto:enquiry@sonachala.com"
+                href="mailto:enquiry@sonachalasquare.com"
                 style={{
                   color: "#1a5dbb",
                   fontSize: "14px",
@@ -44,7 +44,7 @@ const ContactUs = () => {
                   textDecoration: "none",
                 }}
               >
-                enquiry@sonachala.com
+                enquiry@sonachalasquare.com
               </a>
             </div>
 
@@ -145,7 +145,7 @@ const ContactUs = () => {
               EMAIL -
 
               <a
-                href="mailto:enquiry@sonachala.com"
+                href="mailto:enquiry@sonachalasquare.com"
                 style={{
                   color: "#1a5dbb",
                   fontSize: "14px",
@@ -153,7 +153,7 @@ const ContactUs = () => {
                   textDecoration: "none",
                 }}
               >
-                enquiry@sonachala.com
+                enquiry@sonachalasquare.com
               </a>
             </div>
 
@@ -194,7 +194,7 @@ const ContactUs = () => {
               Email :
 
               <a
-                href="mailto:accounts@sonachala.com"
+                href="mailto:accounts@sonachalasquare.com"
                 style={{
                   color: "#1a5dbb",
                   fontSize: "14px",
@@ -202,13 +202,13 @@ const ContactUs = () => {
                   textDecoration: "none",
                 }}
               >
-                accounts@sonachala.com
+                accounts@sonachalasquare.com
               </a>
 
               {" , "}
 
               <a
-                href="mailto:enquiry@sonachala.com"
+                href="mailto:enquiry@sonachalasquare.com"
                 style={{
                   color: "#1a5dbb",
                   fontSize: "14px",
@@ -216,7 +216,7 @@ const ContactUs = () => {
                   textDecoration: "none",
                 }}
               >
-                enquiry@sonachala.com
+                enquiry@sonachalasquare.com
               </a>
             </div>
 
@@ -292,7 +292,7 @@ const ContactUs = () => {
               Email -
 
               <a
-                href="mailto:enquiry@sonachala.com"
+                href="mailto:enquiry@sonachalasquare.com"
                 style={{
                   color: "#1a5dbb",
                   fontSize: "14px",
@@ -300,7 +300,7 @@ const ContactUs = () => {
                   textDecoration: "none",
                 }}
               >
-                enquiry@sonachala.com
+                enquiry@sonachalasquare.com
               </a>
             </div>
 
@@ -375,7 +375,7 @@ const ContactUs = () => {
               Email -
 
               <a
-                href="mailto:enquiry@sonachala.com"
+                href="mailto:enquiry@sonachalasquare.com"
                 style={{
                   color: "#1a5dbb",
                   fontSize: "14px",
@@ -383,7 +383,7 @@ const ContactUs = () => {
                   textDecoration: "none",
                 }}
               >
-                enquiry@sonachala.com
+                enquiry@sonachalasquare.com
               </a>
             </div>
           </div>
